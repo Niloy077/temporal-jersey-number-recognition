@@ -25,8 +25,9 @@ Ones Digit Head (0–9)
 ---
 
 ## Architecture and Training Curves
-![Model Architecture](assets\Network_Diagram.png)
-![Training and Validation Loss](assets\train_val_loss.png)
+![Model Architecture](assets/Network_Diagram.png)
+![Training and Validation Loss](assets/train_val_loss.png)
+
 
 ---
 
