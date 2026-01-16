@@ -69,9 +69,4 @@ Evaluation is performed on a **held-out test set** that remains unseen during tr
 - Designed for low latency and scalability
 - Temporal modeling significantly improves stability over single-frame prediction
 
----
-
-## AI Usage Disclosure
-
-AI tools were used for code scaffolding and documentation drafting. Model design, experimentation, and analysis were independently implemented.
 
