@@ -13,21 +13,19 @@ This repository implements a lightweight temporal computer vision model for reco
 
 ---
 
-## Model Overview
+## Model Architecture
 
-Input Image Sequence  
-Shared CNN Encoder  
-Temporal GRU  
-Temporal Mean Pooling  
-Tens Digit Head (0–9)  
-Ones Digit Head (0–9)
+![Model Architecture](assets/Network_Diagram.png)
+
+The model processes a sequence of player bounding-box images using a shared CNN, aggregates temporal information via a GRU, and predicts jersey numbers using independent digit classifiers.
 
 ---
 
-## Architecture and Training Curves
-![Model Architecture](assets/Network_Diagram.png)
+## Training Behavior
+
 ![Training and Validation Loss](assets/train_val_loss.png)
 
+Training and validation losses remain closely aligned, indicating controlled generalization and minimal overfitting for the lightweight temporal model.
 
 ---
 
